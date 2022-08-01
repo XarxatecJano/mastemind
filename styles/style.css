@@ -1,0 +1,44 @@
+#boardGame {
+    display: flex;
+    flex-direction: row;
+}
+
+#userInterface{
+    width: 40%;
+    margin: 0em 3em 0em 0em;
+}
+
+.colorBox{
+    display: inline;
+    width: 3em;
+    height: 3em;
+    margin: 1em;
+}
+
+.infoBox{
+    display: inline;
+    width: 1em;
+    height: 1em;
+    margin: 0.3em;
+}
+
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}

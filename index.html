@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="src/script.js" async></script>
+    <title>Mastermind</title>
+</head>
+<body>
+    <h1>Mastermind</h1>
+    <section id="boardGame">
+        <section id="userInterface">
+            <section id="controls1">
+                    <button id="button1" class="colorBox userButton yellow" value="y"></button>
+                    <button id="button2" class="colorBox userButton red" value="r"></button>
+                    <button id="button3" class="colorBox userButton black" value="b" ></button>
+                    <button id="button4" class="colorBox userButton green" value="g"></button>
+            </section>
+            <section id="info">
+                <p>Turns left: <span id="turnsLeft"></span></p>
+                <p>Current combination:</p>
+                <div id="currentCombination"></div>
+            </section>
+            <section id ="controls2">
+                    <button id="delete">Borrar</button>
+                    <button id="try">Confirm</button>
+              
+            </section>
+        </section>
+        <section id="board">
+            <table>
+                <tbody id="turns">
+    
+                </tbody>
+            </table>
+        </section>
+    </section>
+    
+</body>
+</html>
